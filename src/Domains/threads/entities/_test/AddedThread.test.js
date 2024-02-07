@@ -41,11 +41,5 @@ describe('AddedThread entities', () => {
     expect(addedThread.id).toEqual(payload.id);
     expect(addedThread.title).toEqual(payload.title);
     expect(addedThread.owner).toEqual(payload.owner);
-    /**
-     * @TODO 2
-     * Lengkapi pengujian pada skenario berhasil membuat objek addedThread.
-     * Pastikan terdapat proses `assertion`
-     * yang mengecek nilai-nilai properti yang berada di dalam objek `addedThread`.
-     */
   });
 });

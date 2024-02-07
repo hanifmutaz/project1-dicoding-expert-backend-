@@ -33,15 +33,6 @@ class CommentRepositoryPostgres extends CommentRepository {
 
     // Jika jumlah baris hasil query lebih dari 0, berarti komentar ada
     return result.rows[0].count > 0;
-    
-    /**
-     * @TODO 8
-     * Lengkapi kode pada method `isCommentExist` yang berguna untuk
-     * melihat apakah komentar berdasarkan `commentId` sudah ada di database atau belum.
-     *
-     * Method ini harus mengembalikan `true` jika komentar sudah tersedia dan
-     * mengembalikan `false` jika komentar belum tersedia.
-     */
   }
 
   async isCommentOwner(commentId, owner) {

@@ -41,16 +41,7 @@ class CommentsHandler {
       status: 'success',
       message: 'Komentar berhasil dihapus',
     };
-  
-
-    /**
-     * @TODO 9
-     * Eksekusi useCase DeleteCommentUseCase untuk menjalankan aksi **menghapus komentar**
-     *
-     * Untuk mendapatkan useCase, pastikan Anda memanfaatkan method `this._container.getInstance`
-     */
   }
-  
 }
 
 module.exports = CommentsHandler;

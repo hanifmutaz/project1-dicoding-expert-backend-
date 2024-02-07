@@ -10,12 +10,5 @@ describe('ThreadRepository abstract', () => {
      await expect(threadRepository.addThread({})).rejects.toThrowError('THREAD_REPOSITORY.METHOD_NOT_IMPLEMENTED');
      await expect(threadRepository.isThreadExist('')).rejects.toThrowError('THREAD_REPOSITORY.METHOD_NOT_IMPLEMENTED');
      await expect(threadRepository.getThreadById('')).rejects.toThrowError('THREAD_REPOSITORY.METHOD_NOT_IMPLEMENTED');
-    /**
-     * @TODO 1
-     * Lengkapi pengujian untuk `ThreadRepository` abstract
-     * Pastikan semua fungsi yang ada di `ThreadRepository`
-     * membangkitkan `Error` THREAD_REPOSITORY.METHOD_NOT_IMPLEMENTED
-     *
-     */
   });
 });

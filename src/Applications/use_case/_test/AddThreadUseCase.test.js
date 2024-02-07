@@ -32,13 +32,5 @@ describe('AddThreadUseCase', () => {
     // Assert
     expect(addedThread).toEqual(expectedAddedThread);
     expect(mockThreadRepository.addThread).toHaveBeenCalledWith(useCasePayload);
-    /**
-     * @TODO 3
-     * Lengkapi pengujian `AddThreadUseCase` agar dapat memastikan
-     * flow/logika yang dituliskan pada `AddThreadUseCase` benar!
-     *
-     * Tentunya, di sini Anda harus melakukan Test Double
-     * untuk memalsukan implmentasi fungsi `threadRepository`.
-     */
   });
 });
